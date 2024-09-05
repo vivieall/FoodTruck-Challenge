@@ -19,7 +19,7 @@ const FoodTruckList: React.FC = () => {
   const [sortOrder, setSortOrder] = useState<string>('');
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/foodtrucks')
+    fetch('https://foodtruck-challenge.onrender.com/api/foodtrucks')
       .then(response => response.json())
       .then(data => {
         const approvedTrucks = data.filter((truck: FoodTruck) => truck.Status === 'APPROVED');
