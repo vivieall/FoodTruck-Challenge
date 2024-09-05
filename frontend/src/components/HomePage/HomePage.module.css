@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 81vh;
+  position: relative;
+  animation: backgroundAnimation 10s infinite alternate;
+}
+
+.button {
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #e5533d;
+  border: 2px solid rgb(128, 128, 128);
+}
+
+.backgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  height: 81vh;
+}
+
+.button {
+  z-index: 1;
+  padding: 20px 30px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: 2px solid rgb(234, 244, 178);
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background: linear-gradient(to right, #ffa500, #4caf50);
+  }
+  100% {
+    background: linear-gradient(to right, #4caf50, #ffa500);
+  }
+}

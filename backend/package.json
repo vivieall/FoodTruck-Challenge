@@ -1,0 +1,16 @@
+{
+  "name": "foodtruck-challenge-api",
+  "version": "1.0.0",
+  "description": "A simple API to manage food truck data for the foodtruck-challenge project by Viviana Angeles.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Viviana Angeles",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,37 @@
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  text-align: center;
+  position: relative;
+}
+
+.cardContent {
+  flex: 1;
+  height: 150px;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.infoFood {
+  color: #ff6347;
+}
+
+.items {
+  overflow: scroll;
+  max-height: 38px;
+}
