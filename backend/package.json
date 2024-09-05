@@ -4,7 +4,8 @@
   "description": "A simple API to manage food truck data for the foodtruck-challenge project by Viviana Angeles.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "echo 'No build step required'"
   },
   "author": "Viviana Angeles",
   "license": "ISC",
