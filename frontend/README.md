@@ -1,46 +1,101 @@
-# Getting Started with Create React App
+# FoodTrucksFinder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![](https://i.postimg.cc/wjR1TqZ5/image.png)](https://i.postimg.cc/wjR1TqZ5/image.png)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+FoodTrucksFinder is a web application designed to enable easy discovery and exploration of food trucks in San Francisco. Leveraging open data provided by the city, this app provides users with interactive and up-to-date information on food trucks' locations, menus, and operating hours.
 
-### `npm start`
+## Purpose
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project was developed as part of an engineering challenge to showcase the ability to build functional, well-designed software within a limited timeframe. The goal is to simulate real-world software development scenarios that emphasize practical and efficient coding practices and production readiness.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React**: Utilized for building a dynamic and responsive user interface.
+- **TypeScript**: Employed to ensure type safety and streamline the development process.
+- **Node.js & Express**: Used for setting up the backend server that handles API requests.
+- **CSS Modules**: For scoped and manageable styling to keep the presentation consistent.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- **List FoodTrucks**: Users can find food trucks on an interactive list.
+- **Advanced Search and Filters**: Allows users to search for trucks by food type and apply sort asc or desc.
+- **Responsive Design**: Ensures that the app is accessible and functional on devices of various sizes, from mobile phones to desktop monitors.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+------------
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To get this project up and running on your local machine, follow these steps:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Clone the repository:
+   ```bash
+   git clone https://github.com/vivieall/FoodTruck-Challenge.git
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+##### BACKEND SIDE
+###### Navigate to the project directory
+cd backend
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+##### Install the required dependencies
+npm install
 
-## Learn More
+##### Start the development server
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- This will run the app server side on http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##### FRONTEND SIDE
+###### Navigate to the project directory
+cd frontend
+
+##### Install the required dependencies
+npm install
+
+##### Start the development server
+npm start
+
+- This will run the app in development mode. Open http://localhost:3001 to view it in your browser.
+
+
+------------
+
+
+## Color Palette
+
+The design of FoodTrucksFinder uses a carefully selected color palette to enhance user experience and ensure accessibility:
+
+[![](https://i.postimg.cc/FsscmQhG/Food-Truck.png)](https://i.postimg.cc/FsscmQhG/Food-Truck.png)
+
+- Primary Color (Green): #4CAF50
+- Accent Color (Orange): #FFA500
+- Background Color (Light): #F5F5F5
+
+## Screenshots
+
+Below are the screenshots demonstrating the key features of the app:
+
+###### Main Page with Splash Video
+
+[![](https://i.postimg.cc/Y9HGs5X6/image.png)](https://i.postimg.cc/Y9HGs5X6/image.png)
+
+###### List of Food Trucks
+
+[![](https://i.postimg.cc/wjR1TqZ5/image.png)](https://i.postimg.cc/wjR1TqZ5/image.png)
+
+###### Search and Filter Functionality
+
+[![](https://i.postimg.cc/Y9M03198/image.png)](https://i.postimg.cc/Y9M03198/image.png)
+
+###### Responsive Design on Various Devices
+
+[![](https://i.postimg.cc/T3bPvk5C/image.png)](https://i.postimg.cc/T3bPvk5C/image.png)
+
+------------
+
+## Deployment
+- Frontend on Vercel.
+- Backend on Heroku.
