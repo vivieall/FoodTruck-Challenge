@@ -32,9 +32,8 @@ This project was developed as part of an engineering challenge to showcase the a
 To get this project up and running on your local machine, follow these steps:
 
 #### Clone the repository:
-   ```bash
-   git clone https://github.com/vivieall/FoodTruck-Challenge.git
-    ```
+
+  - git clone https://github.com/vivieall/FoodTruck-Challenge.git
 
 ##### BACKEND SIDE
 ###### Navigate to the project directory
