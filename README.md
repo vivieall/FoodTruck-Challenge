@@ -1,36 +1,101 @@
-# Engineering Challenge
+# FoodTrucksFinder
 
-We strive to be a practical and pragmatic team. That extends to the way that we work with you to understand if this team is a great fit for you. We want you to come away with a great understanding of the kind of things that we actually do day to day and what it is like to work in our teams.
+[![](https://i.postimg.cc/wjR1TqZ5/image.png)](https://i.postimg.cc/wjR1TqZ5/image.png)
 
-We don't believe that whiteboard coding with someone watching over your shoulder accurately reflects our day to day. Instead we'd like to be able to discuss code that you have already written when we meet.
+## Overview
 
-This can be a project of your own or a substantial pull request on an open source project, but we recognize that most people have done private or proprietary work and this engineering challenge is for you.
+FoodTrucksFinder is a web application designed to enable easy discovery and exploration of food trucks in San Francisco. Leveraging open data provided by the city, this app provides users with interactive and up-to-date information on food trucks' locations, menus, and operating hours.
 
-We realize that taking on this assignment represents a time commitment for you, and we do not take that lightly. Throughout the recruitment process we will be respectful of your time and commit to working quickly and efficiently. This will be the only technical assessment you'll be asked to do. The brief following conversations will be based on this assessment and your prior experiences.
+## Purpose
 
-## Challenge Guidelines
+This project was developed as part of an engineering challenge to showcase the ability to build functional, well-designed software within a limited timeframe. The goal is to simulate real-world software development scenarios that emphasize practical and efficient coding practices and production readiness.
 
-* This is meant to be an assignment that you spend approximately two to three hours of focused coding. Do not feel that you need to spend extra time to make a good impression. Smaller amounts of high quality code will let us have a much better conversation than large amounts of low quality code.
+## Technologies Used
 
-* Think of this like an open source project. Create a repo on Github, use git for source control, and use a Readme file to document what you built for the newcomer to your project.
+- **React**: Utilized for building a dynamic and responsive user interface.
+- **TypeScript**: Employed to ensure type safety and streamline the development process.
+- **Node.js & Express**: Used for setting up the backend server that handles API requests.
+- **CSS Modules**: For scoped and manageable styling to keep the presentation consistent.
 
-* We build systems engineered to run in production. Given this, please organize, design, test, deploy, and document your solution as if you were going to put it into production. We completely understand this might mean you can't do much in the time budget. Prioritize production-readiness over features.
+## Features
 
-* Think out loud in your documentation. Write our tradeoffs, the thoughts behind your choices, or things you would do or do differently if you were able to spend more time on the project or do it a second time.
+- **List FoodTrucks**: Users can find food trucks on an interactive list.
+- **Advanced Search and Filters**: Allows users to search for trucks by food type and apply sort asc or desc.
+- **Responsive Design**: Ensures that the app is accessible and functional on devices of various sizes, from mobile phones to desktop monitors.
 
-* We have a variety of languages and frameworks that we use, but we don't expect you to know them ahead of time. For this assignment you can make whatever choices that let you express the best solution to the problem given your knowledge and favorite tools without any restriction. Please make sure to document how to get started with your solution in terms of setup so that we'd be able to run it.
 
-* Once this is functioning and documented to your liking, either send us a link to your public repo or compress the project directory, give the file a pithy name which includes your own name, and send the file to us.
+------------
 
-## The Challenge
 
-As the song says, "you've got to play the hand you're dealt", and in this case your hand is to implement something to help us manage our food truck habit.
+## Installation
 
-Our team loves to eat. They are also a team that loves variety, so they also like to discover new places to eat.
+To get this project up and running on your local machine, follow these steps:
 
-In fact, we have a particular affection for food trucks. One of the great things about Food Trucks in San Francisco is that the city releases a list of them as open data.
+#### Clone the repository:
+   ```bash
+   git clone https://github.com/vivieall/FoodTruck-Challenge.git
+    ```
 
-Your assignment is to make it possible for our teams to do something interesting with this food trucks data.
+##### BACKEND SIDE
+###### Navigate to the project directory
+cd backend
 
-This is a freeform assignment. You can write a web API that returns a set of food trucks. You can write a web frontend that visualizes the nearby food trucks for a given place. You can create a CLI that lets us get the names of all the taco trucks in the city. You can create system that spits out a container with a placeholder webpage featuring the name of each food truck to help their marketing efforts. You're not limited by these ideas at all, but hopefully those are enough help spark your own creativity.
-San Francisco's food truck open dataset is [located here](https://data.sfgov.org/Economy-and-Community/Mobile-Food-Facility-Permit/rqzj-sfat/data) and there is an endpoint with a [CSV dump of the latest data here](https://data.sfgov.org/api/views/rqzj-sfat/rows.csv). We've also included a copy of the data in this repo as well.
+##### Install the required dependencies
+npm install
+
+##### Start the development server
+npm start
+
+- This will run the app server side on http://localhost:3000
+
+##### FRONTEND SIDE
+###### Navigate to the project directory
+cd frontend
+
+##### Install the required dependencies
+npm install
+
+##### Start the development server
+npm start
+
+- This will run the app in development mode. Open http://localhost:3001 to view it in your browser.
+
+
+------------
+
+
+## Color Palette
+
+The design of FoodTrucksFinder uses a carefully selected color palette to enhance user experience and ensure accessibility:
+
+[![](https://i.postimg.cc/FsscmQhG/Food-Truck.png)](https://i.postimg.cc/FsscmQhG/Food-Truck.png)
+
+- Primary Color (Green): #4CAF50
+- Accent Color (Orange): #FFA500
+- Background Color (Light): #F5F5F5
+
+## Screenshots
+
+Below are the screenshots demonstrating the key features of the app:
+
+###### Main Page with Splash Video
+
+[![](https://i.postimg.cc/Y9HGs5X6/image.png)](https://i.postimg.cc/Y9HGs5X6/image.png)
+
+###### List of Food Trucks
+
+[![](https://i.postimg.cc/wjR1TqZ5/image.png)](https://i.postimg.cc/wjR1TqZ5/image.png)
+
+###### Search and Filter Functionality
+
+[![](https://i.postimg.cc/Y9M03198/image.png)](https://i.postimg.cc/Y9M03198/image.png)
+
+###### Responsive Design on Various Devices
+
+[![](https://i.postimg.cc/T3bPvk5C/image.png)](https://i.postimg.cc/T3bPvk5C/image.png)
+
+------------
+
+## Deployment
+- Frontend on Vercel.
+- Backend on Heroku.
